@@ -8,7 +8,7 @@ int main() {
 	scanf("%f", &alt);
 	printf("digite a profundidade da caixa em cm: ");
 	scanf("%f", &prof);
-	printf("O volume da caixa e %.4f m³\n", volume(larg, alt, prof));
+	printf("O volume da caixa e %.4f mÂ³\n", volume(larg, alt, prof));
 	return 0;
 }
 float volume(float l, float a, float p) {
